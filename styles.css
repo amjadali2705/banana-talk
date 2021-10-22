@@ -1,0 +1,65 @@
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: wheat;
+    color: rgb(52, 25, 209);
+}
+
+:root {
+    --primary:  #b2f24c;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--primary);
+    text-align: center;
+    max-height: 20vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    min-height: 10vh;
+}
+
+.container{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+#txt-input {
+    color: rgb(187, 11, 11);
+    background-color: rgb(216, 237, 100);
+}
+
+#btn-translate {
+    background-color: var(--primary);
+    padding: 1rem;
+}
+.text {
+    padding-top: 1rem;
+}
